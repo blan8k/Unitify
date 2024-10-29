@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_length"
+            android:icon="@drawable/ic_ruler"
+            android:title="Length" />
+        <item
+            android:id="@+id/nav_mass"
+            android:icon="@drawable/ic_scale"
+            android:title="Mass" />
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/ic_clock"
+            android:title="Time" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/ic_thermostat"
+            android:title="Temperature" />
+        <item
+            android:id="@+id/nav_amount_of_substance"
+            android:icon="@drawable/ic_volumeclipart"
+            android:title="Volume" />
+
+    </group>
+</menu>
